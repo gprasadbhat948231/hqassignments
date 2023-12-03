@@ -1,0 +1,74 @@
+.table-container {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+}
+
+thead {
+  border: 1px solid;
+}
+
+.table-row-head {
+  width: 100%;
+  color: #ddd4d4;
+  background-color: #6650a4;
+  outline: 1px solid blue;
+  height: 30px;
+  text-align: center;
+}
+
+tbody {
+  width: 100%;
+}
+
+tr {
+  width: 100%;
+  border: 1px solid red !important;
+}
+
+.edit-field {
+  border: none;
+  background-color: none;
+}
+
+.edit-field:focus {
+  outline: none;
+}
+
+.edit {
+  cursor: pointer;
+  border: none;
+  padding: 5px 30px 5px 30px;
+  border-radius: 5px;
+  background-color: aqua;
+}
+
+.delete{
+  cursor: pointer;
+  border: none;
+  padding: 5px 30px 5px 30px;
+  border-radius: 5px;
+  background-color: red;
+}
+
+
+.action-btn-div{
+  display: flex;
+  gap: 10px;
+  width:100%;
+  align-items: center;
+}
+
+.rows-tdiv{
+  text-align: left;
+  padding: 5px;
+  width: 24%;
+}
+
+.rows-tdiv1{
+  text-align: left;
+  padding: 5px;
+  width: 6%;
+}
